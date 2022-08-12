@@ -44,16 +44,18 @@ const Navbar = () => {
                 News
               </Link>
             </div>
-            <a
-              className="navbar-item"
-              href="https://discord.gg/JkC2tVAQ"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="icon">
-                <img src={discord} alt="Discord" />
-              </span>
-            </a>
+            <div className="navbar-item" style={{padding: "0px"}}>
+              <a
+                className="navbar-item"
+                href="https://discord.gg/JkC2tVAQ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={discord} alt="Discord" />
+                </span>
+              </a>
+            </div>
           </li>
         </ul>
       </div>
