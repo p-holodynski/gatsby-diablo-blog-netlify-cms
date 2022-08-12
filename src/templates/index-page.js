@@ -30,14 +30,14 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="column is-12">
                     <div>
-                      <h3 className="has-text-weight-semibold is-size-2">
+                      <h3 className="has-text-weight-semibold is-size-3-mobile is-size-2-tablet">
                         {heading}
                       </h3>
                       <p>{description}</p>
                     </div>
                   </div>
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="has-text-weight-semibold is-size-3-mobile is-size-2-tablet">
                       Latest news
                     </h3>
                     <BlogRoll />
