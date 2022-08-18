@@ -22,7 +22,7 @@ export const IndexPageTemplate = ({
   return (
     <div>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
-      <section className="section section--gradient" style={{ padding: "0.5rem 1.5rem" }}>
+      <section className="section section--gradient home" style={{ padding: "0rem !important" }}>
         <div className="container">
           <div className="section" style={{ padding: "0.5rem 1.5rem" }}>
             <div className="columns">
@@ -109,18 +109,6 @@ export const pageQuery = graphql`
         heading
         subheading
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
       }
     }
   }

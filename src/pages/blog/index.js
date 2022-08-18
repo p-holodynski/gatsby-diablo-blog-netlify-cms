@@ -27,10 +27,7 @@ export default class BlogIndexPage extends React.Component {
             <div className="content">
             <h1
             className="has-text-weight-bold is-size-3-mobile is-size-2-tablet news-title"
-            style={{
-              color: "black",
-
-            }}
+            style={{color: "black"}}
             >
               Latest News
             </h1>

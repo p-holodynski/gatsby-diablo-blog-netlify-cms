@@ -2,6 +2,7 @@ import * as React from "react";
 import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const TagRoute = (props) =>  {
 
@@ -10,7 +11,21 @@ const TagRoute = (props) =>  {
     const postLinks = posts.map((post) => (
       <li key={post.node.fields.slug}>
         <Link to={post.node.fields.slug}>
-          <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
+        <div className="featured-thumbnail" style={{ flexBasis: "20%" }}>
+            <PreviewCompatibleImage
+              imageInfo={{
+                image: post.node.frontmatter.featuredimage,
+                alt: `featured image thumbnail for post ${post.node.frontmatter.title}`,
+                width:
+                  post.node.frontmatter.featuredimage.childImageSharp
+                  .gatsbyImageData.width,
+                height:
+                  post.node.frontmatter.featuredimage.childImageSharp
+                  .gatsbyImageData.height,
+              }}
+            />
+          </div>
+          <h2 className="is-size-4">{post.node.frontmatter.title}</h2>
         </Link>
       </li>
     ));
@@ -30,10 +45,11 @@ const TagRoute = (props) =>  {
             <div className="columns">
               <div
                 className="column is-10 is-offset-1"
-                style={{ marginBottom: "6rem" }}
+                style={{ marginBottom: "3rem", minHeight: "76vh" }}
               >
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
                 <ul className="taglist">{postLinks}</ul>
+                <hr></hr>
                 <p>
                   <Link to="/tags/">Browse all tags</Link>
                 </p>
@@ -67,6 +83,15 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
+            featuredimage {
+              childImageSharp {
+                gatsbyImageData(
+                  width: 120
+                  quality: 100
+                  layout: CONSTRAINED
+                )
+              }
+            }
           }
         }
       }

@@ -18,7 +18,7 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <section className="section">
+    <section className="section blog">
       {helmet || ""}
       <div className="container content">
         <div className="columns">
@@ -29,7 +29,7 @@ export const BlogPostTemplate = ({
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
+              <div style={{ marginTop: `2rem` }}>
                 <h4>Tags</h4>
                 <ul className="taglist">
                   {tags.map((tag) => (
