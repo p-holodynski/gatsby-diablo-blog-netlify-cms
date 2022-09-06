@@ -1,8 +1,9 @@
 ---
 templateKey: index-page
-title: Hydra Clan
-image: /img/shadow-faction-2.jpg
-heading: Who are We?
-subheading: Welcome to our official website
+title: ""
+image: /img/daedessa-kion-akeba-art.jpg
+heading: Hydra Clan
+subheading: ""
 description: >-
-  Hydra clan description here.
+  Welcome to our official website. You can find us on the NA East server - Hadriel.
+  If you would like to join, please contact one of our officers - Katya, Nibiru or Waric.

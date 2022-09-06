@@ -34,11 +34,11 @@ const Navbar = () => {
                 re-write that makes this unneccesary.
              */}
           <li className="navbar-end has-text-centered">
-            <div className="navbar-item" style={{padding: "0px"}}>
+            {/* <div className="navbar-item" style={{padding: "0px"}}>
               <Link className="navbar-item" to="/about">
                 About
               </Link>
-            </div>
+            </div> */}
             <div className="navbar-item" style={{padding: "0px"}}>
               <Link className="navbar-item" to="/blog">
                 News

@@ -22,14 +22,14 @@ export default class BlogIndexPage extends React.Component {
             }}
             formats={["auto", "webp", "avif"]}
           />
-        <section className="section">
+        <section className="section blog">
           <div className="container">
             <div className="content">
             <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet news-title"
+            className="has-text-weight-bold is-size-2-mobile is-size-2-tablet news-title"
             style={{color: "black"}}
             >
-              Latest News
+              Announcements
             </h1>
               <BlogRoll />
             </div>

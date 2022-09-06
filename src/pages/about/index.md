@@ -2,7 +2,7 @@
 templateKey: 'about-page'
 path: /about
 title: About our clan
-image: /img/daedessa-kion-akeba-art.jpg
+image: /img/di-classes.jpg
 ---
 ### History
 Description of the clan origins and goals etc.
