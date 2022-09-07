@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
-title: Kion's announcements
-date: 2022-08-12T15:04:10.000Z
+title: Kion's Ordeal
+date: 2022-09-07T00:14:34.477Z
 description: This week will begin 4 sessions per day when Kion's is unlocked.
 featuredpost: true
 featuredimage: /img/di-shadow-victory.jpg
