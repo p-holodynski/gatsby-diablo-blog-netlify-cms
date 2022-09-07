@@ -1,22 +1,19 @@
 ---
-templateKey: 'blog-post'
-title: 'General tips before Shadow Wars'
+templateKey: blog-post
+title: Kion's announcements
 date: 2022-08-12T15:04:10.000Z
+description: This week will begin 4 sessions per day when Kion's is unlocked.
 featuredpost: true
 featuredimage: /img/di-shadow-victory.jpg
-description: >-
-  Please follow these tips for the benefit of our clan.
 tags:
-  - shadow war
-  - advice
+  - kion
 ---
-![shadow victory](/img/di-shadow-victory.jpg)
+![](/img/di-shadow-victory.jpg)
 
-We expect to become Immortals very soon. To acomplish this we must stay active and motivated.
+From here forward Kion's will also be held on days in which the strategy is set to concentrate power to maximize the dominance gains when we do the runs. We are saving to afford the cost of both the current level 4 and building our piggy bank for future level 5 when we get there. 
 
-## Tips for shadow war
+There will be no Kion's on 9/6. We will update and ping this channel as soon as we know which days and times are planned. 
 
-1. Try to always be available for Shadow Wars on Thursdays and Saturdays.
-2. Please listen to your clan leader and officers.
-3. Don't spam in the chat, it makes harder to read the instructions about the war.
-4. Timing is key, don’t forget to show up on time.
+We are still working on Rite of Exile info as we will most likely have our 1st this week. This info will also get out to you ASAP, planning it is a large task to undertake while still being able to enjoy the game when we have time outside of our work, jobs etc. 
+
+Thank you for your patience.
