@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
 title: Kion's Ordeal
-date: 2022-09-07T00:14:34.477Z
-description: This week will begin 4 sessions per day when Kion's is unlocked.
+date: 2022-09-09T20:52:11.475Z
+description: We'll be running kions this Friday, Saturday, and Sunday
 featuredpost: true
 featuredimage: /img/di-shadow-victory.jpg
 tags:
@@ -10,10 +10,11 @@ tags:
 ---
 ![](/img/di-shadow-victory.jpg)
 
-From here forward Kion's will also be held on days in which the strategy is set to concentrate power to maximize the dominance gains when we do the runs. We are saving to afford the cost of both the current level 4 and building our piggy bank for future level 5 when we get there. 
+Times will be:
 
-There will be no Kion's on 9/6. We will update and ping this channel as soon as we know which days and times are planned. 
+* 1 session in the morning (10:00 AM)
+* 1 session after noon vault (1:15 PM)
+* 1 session after evening vault/rite of exile (8:15 PM)
+* 1 flex session - likely used after the 8:15 PM session, but will adjust as appropriate
 
-We are still working on Rite of Exile info as we will most likely have our 1st this week. This info will also get out to you ASAP, planning it is a large task to undertake while still being able to enjoy the game when we have time outside of our work, jobs etc. 
-
-Thank you for your patience.
+  We'll be running the dominance buff a few days earlier again to optimize gains. Go ahead and dump all your sigils whenever it's at 36. (Sunday still remains a guaranteed turn-in day)
