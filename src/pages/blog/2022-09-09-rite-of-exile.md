@@ -8,8 +8,11 @@ featuredimage: /img/shadow-faction-2.jpg
 tags:
   - rite
 ---
-This is our most important event as immortals where we'll be battling the top 10 shadow clans. \
-We'll be providing more information soon. \
+This is our most important event as immortals where we'll be battling the top 10 shadow clans. 
+
+![](/img/shadow-faction-2.jpg)
+
+\
 As a heads up, there'll be 80 spots (10 teams of 8) and we'll be providing various avenues for entry: 
 
 • Power - battlegrounds experience and PvP CR 
