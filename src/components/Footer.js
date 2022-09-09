@@ -6,25 +6,25 @@ import discord from "../img/social/discord-footer.svg";
 const Footer = () => {
 
     return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
+      <footer className="footer has-text-white-ter">
+        <div className="content has-text-white-ter">
+          <div className="container has-text-white-ter">
             <div className="columns">
               <div className="column is-12">
                 <section className="menu">
                   <div className="menu-list">
                     <div>
-                      <Link to="/" className="navbar-item">
+                      <Link to="/" className="navbar-item link">
                         Home
                       </Link>
                     </div>
                     <div>
-                      <Link className="navbar-item" to="/about">
+                      <Link className="navbar-item link" to="/about">
                         About
                       </Link>
                     </div>
                     <div>
-                      <Link className="navbar-item" to="/blog">
+                      <Link className="navbar-item link" to="/blog">
                         News
                       </Link>
                     </div>
@@ -36,7 +36,7 @@ const Footer = () => {
                       href="https://www.patrykholodynski.com/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      style={{ color: "white", padding: "0.5em 0.75em", alignSelf: "center" }}
+                      style={{ color: "#CD0D01", padding: "0.5em 0.75em", alignSelf: "center" }}
                     >
                       © Patryk Holodynski
                     </a>

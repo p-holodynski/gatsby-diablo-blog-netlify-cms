@@ -13,7 +13,7 @@ export const TipsPageTemplate = ({
   fullImage,
 }) => {
   const heroImage = getImage(image) || image;
-  const fullWidthImage = getImage(fullImage) || fullImage;
+  // const fullWidthImage = getImage(fullImage) || fullImage;
 
   return (
     <div className="content">
